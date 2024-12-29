@@ -1,0 +1,6 @@
+[submodule "yarukoto-fe"]
+	path = yarukoto-fe
+	url = https://github.com/accodev/yarukoto-fe
+[submodule "yarukoto-be"]
+	path = yarukoto-be
+	url = https://github.com/accodev/yarukoto-be
