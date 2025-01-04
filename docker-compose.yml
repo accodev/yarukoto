@@ -1,12 +1,8 @@
-services:
-  yarukoto-be:
-    build:
-      context: ./yarukoto-be
-      dockerfile: Dockerfile
-    ports:
-      - "5277:8080"
+include:
+  - ./yarukoto-be/docker-compose.yml
 
-  yarukoto-fe:
+services:
+  frontend:
     build:
       context: ./yarukoto-fe
       dockerfile: Dockerfile
